@@ -1,0 +1,28 @@
+.title {
+    position: relative;
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &_work {
+        &:after {
+            content: '';
+            position: absolute;
+            width: 148px;
+            height: 1px;
+            bottom: -20px;
+            left: 50%;
+            background-color: #ec644b;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+.subtitle {
+    margin-top: 37px;
+    color: #2e2e2e;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+}

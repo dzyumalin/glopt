@@ -40,20 +40,24 @@
         margin-top: 35px;
     } 
     &__icon {
-        width: 260px;
-        text-align: center;
-        color: #ffffff;
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 22px;
-        span {
-            display: block;
+        width: 262px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 15px;
+        &_wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 63px;
             height: 63px;
         }
-        img {
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 19px;
+        &_descr {
+            text-align: center;
+            margin-top: 13px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 300;
         }
     }
     &__button {
