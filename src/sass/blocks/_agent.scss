@@ -1,0 +1,17 @@
+.agent {
+    padding: 58px 0 75px 0;
+    min-height: 342px;
+    background: url(../../img/bg_agent.png)center center/cover no-repeat;
+    &__icon {
+        margin: 0 auto;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        img {
+            padding-top: 21px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

@@ -17,12 +17,27 @@
             transform: translateX(-50%);
         }
     }
+    &_white {
+        margin-top: 20px;
+        color: #ffffff;
+        font-weight: 700;
+        text-transform: none;
+        margin-bottom: 0;
+    }
 }
 
 .subtitle {
     margin-top: 37px;
     color: #2e2e2e;
     font-size: 21px;
+    line-height: 24px;
     font-weight: 300;
     text-align: center;
+    &_white {
+        margin-top: 15px;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+    }
 }
