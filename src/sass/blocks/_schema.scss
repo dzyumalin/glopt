@@ -9,15 +9,18 @@
         flex-wrap: wrap;
     }
     &__item {
+        width: 249px;
         display: flex;
         align-items: center;
         flex-direction: column;
         margin-bottom: 35px;
+        img {
+            height: 50px;
+        }
     }
     &__text {
-        width: 249px;
-        margin-left: 17px;
-        line-height: 16px;
+        margin-top: 7px;
+        line-height: 20px;
         text-align: center;
     }
     &__subheader {
@@ -26,7 +29,7 @@
         font-weight: 700;
     }
     &__descr {
-        padding-top: 12px;
+        padding-top: 7px;
         font-size: 14px;
         font-weight: 300;
     }  
