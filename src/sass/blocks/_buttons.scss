@@ -29,4 +29,11 @@
         left: 50%;
         transform: translateX(-50%);
     }
+    &_questions {
+        display: block;
+        margin: 0 auto;
+        margin-top: 17px;
+        margin-bottom: 25px;
+        width: 180px;
+    }
 }

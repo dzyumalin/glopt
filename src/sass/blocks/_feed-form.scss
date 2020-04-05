@@ -1,0 +1,36 @@
+.feed-form {
+    margin-top: 66px;
+    input {
+        width: 268px;
+        height: 45px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        border-radius: 25px;
+        background-color: #ffffff;
+        padding-left: 28px;
+        margin-right: 6px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &_questions {
+        margin-top: 18px;
+        input {
+            margin: 0 6px;
+            margin-top: 15px;
+            width: 250px;
+            height: 45px;
+            border-radius: 25px;
+            border: none;
+            padding: 0 27px;
+            font-size: 13px;
+            &:last-child {
+                margin-top: 8px;
+                margin-left: 0;
+                width: 780px;
+                min-height: 71px;
+                border-radius: 10px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
