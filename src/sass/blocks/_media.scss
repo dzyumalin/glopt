@@ -1,0 +1,107 @@
+@media (max-width: 1200px) {
+    .button {
+        transition: none;
+        &:hover {
+            box-shadow: 0 0 0 0;
+        }
+    }
+    .header {
+        li {
+            a {
+                text-decoration: none;
+                color: #fff;
+                &:hover {
+                    color: #fff;
+                    background-size: 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .promo {
+        &__icon {
+            width: 230px;
+            margin: 0 10px;
+            &_descr {
+                margin-top: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+    .header {
+        padding: 0 10px 0 10px;
+        li {
+            font-size: 12px;
+        }
+        &__logo {
+            img {
+                width: 85px;
+            }
+        }
+        &__contacts {
+            margin-left: 40px;
+            margin-right: 16px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .reason {
+        &__text {
+            width: 395px;
+            margin-left: 15px;
+        }
+        &__subheader {
+            font-size: 14px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
+    .work {
+        &__items {
+            justify-content: space-between;
+        }
+        &__item {
+            width: 310px;
+            img {
+                width: 100%;
+            }
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
+    .subtitle {
+        &_white {
+            font-size: 18px;
+        }
+    }
+    .schema {
+        &__item {
+            width: 248px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+    }
+    .footer {
+        &__up {
+            padding: 0 10px 26px 10px;
+        }
+        &__down {
+            padding: 0 10px 0 10px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+}

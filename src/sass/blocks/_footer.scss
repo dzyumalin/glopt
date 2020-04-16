@@ -73,8 +73,9 @@
         font-weight: 300;
         line-height: 17px;
         text-decoration: underline;
+        transition: 0.5s all;
         &:hover {
-            color: #ec644b;
+            color: #fff;
             text-decoration: underline;
         }
     }

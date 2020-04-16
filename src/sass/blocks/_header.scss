@@ -4,13 +4,13 @@
     align-items: center;
     &__menu {
         display: flex;
-        justify-content: center;
         align-items: center;
         list-style-type: none;
         margin-bottom: 0;
         padding-left: 0;
     }
     li {
+        position: relative;
         border-right: 1px dotted #848a94;
         padding: 0 12px;
         font-size: 15px;
@@ -23,11 +23,17 @@
         }
         a {
             text-decoration: none;
-            color: #ffffff;
+            background: linear-gradient(#ec644b, #ec644b) 0% 105% no-repeat;;
+            background-size: 0% 1px;
+            color: #fff;
+            transition: 0.5s all;
+            &:hover {
+                background-size: 100% 2px;
+                color: #ec644b; 
+            }
         }
     }
     &__logo {
-        width: 96px;
         img {
             width: 100%;
         }

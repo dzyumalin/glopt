@@ -8,7 +8,9 @@
     font-size: 12px;
     font-weight: 300;
     text-transform: uppercase;
+    transition: 0.5s all;
     &_main {
+        border-radius: 30px;
         margin-top: 39px;
         width: 230px;
         height: 57px;
@@ -35,5 +37,8 @@
         margin-top: 17px;
         margin-bottom: 25px;
         width: 180px;
+    }
+    &:hover {
+        box-shadow: 1px 1px 10px #ec644b;
     }
 }

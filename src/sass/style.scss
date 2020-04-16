@@ -1,3 +1,5 @@
+// libs
+
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/fonts';
 @import 'libs/slick';
@@ -11,6 +13,8 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+
+// main
 
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -27,3 +31,4 @@
 @import 'blocks/feed-form';
 @import 'blocks/map';
 @import 'blocks/footer';
+@import 'blocks/media'; 
