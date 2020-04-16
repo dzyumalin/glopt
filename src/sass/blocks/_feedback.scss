@@ -21,23 +21,14 @@
         font-weight: 300;
         text-align: center;
     }
-    .slick-prev {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        left: -66px;
-        border: none;
-        background-color: #fff;
-        img {
-            width: 14px;
-            height: 46px;
-        }
+    .slick-slider {
+        margin-top: 31px;
     }
-    .slick-next, .slick-next {
+    .slick-prev, .slick-next {
         position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        left: -66px;
+        top: 5%;
+        transform: translateY(50%);
+        left: 190px;
         border: none;
         background-color: #fff;
         img {
@@ -46,7 +37,7 @@
         }
     }
     .slick-next {
-        right: -66px;
+        right: 190px;
         left: auto;
     }
 }
