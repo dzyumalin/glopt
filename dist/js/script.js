@@ -4,4 +4,10 @@ $(document).ready(function() {
         prevArrow: '<button type="button" class="slick-prev"><img src="../icons/left.svg"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="../icons/right.svg"></button>'
     });
-}); 
+});
+
+$(document).ready(function() {
+    $('.hamburger__wrapper').click(function(event) {
+        $('.hamburger__wrapper,.header__menu').toggleClass('active');
+    });
+});
