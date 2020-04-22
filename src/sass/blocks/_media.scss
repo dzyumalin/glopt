@@ -107,8 +107,33 @@
 }
 
 @media (max-width: 768px) {
+	.container {
+		max-width: 720px;
+		margin: 0 auto;
+	}
+	.promo {
+		overflow: hidden;
+		padding: 36px 0 62px 0;
+		&__descr {
+			font-size: 20px;
+		}
+		&__header{
+			font-size: 50px;
+		}
+		&__subheader {
+			font-size: 30px;
+		}
+		&__line {
+			display: none;
+		}
+		&__icon {
+			margin: 0;
+		}
+		img {
+			width: 85%;
+		}
+	}
 	.header {
-		height: 50px;
 		position: relative;
 		&__menu {
 			position: fixed;
@@ -138,7 +163,7 @@
 			background-color: #383a47;
 			position: fixed;
 			top: 0;
-			right: 2px;
+			left: 0;
 			z-index: 1;
 			&__wrapper {
 				display: block;
