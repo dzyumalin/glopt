@@ -319,6 +319,10 @@
 }
 
 @media (max-width: 576px) {
+	.container {
+		width: 97%;
+		margin: 0 auto;
+	}
 	.promo {
 		&__descr {
 			font-size: 18px;
@@ -344,13 +348,13 @@
 		font-size: 22px;
 	}
 	.subtitle {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.header {
 		.hamburger {
 			&__wrapper {
-				right: 20px;
+				right: 5px;
 				transform: translateX(-50%);
 			}
 		}
@@ -370,6 +374,14 @@
 			input {
 				width: 175px;
 			}
+		}
+	}
+
+	.feedback {
+		&__descr {
+			width: 60%;
+			text-align: justify;
+			margin: 0 auto;
 		}
 	}
 
