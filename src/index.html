@@ -24,11 +24,11 @@
                         </div>
                         <button class="button">перезвоните мне</button> -->
                     </ul>
-                    <div class="header__contacts">
+                    <div class="header__contacts header__contacts_320px">
                         <div class="header__text">Есть вопросы?</div>
                         <a href="tel:+79264230100" class="header__phone">+7 (926) 423 01 00</a>
                     </div>
-                    <button class="button">перезвоните мне</button>
+                    <button data-modal="consultation" class="button button_320px">перезвоните мне</button>
                     <div class="hamburger">
                         <div class="hamburger__wrapper">
                             <span></span>
@@ -72,7 +72,7 @@
                                 чжоу в Москву от 25$/кг</div>
                         </div>
                     </div>
-                    <button class="button button_main">получить расчет</button>
+                    <button data-modal="consultation" class="button button_main">получить расчет</button>
                 </div>
             </div>
         </div>
@@ -201,7 +201,7 @@
                         Морские перевозки грузов из Китая <br> 
                         в Россию за 35 дней <br> 
                         с прохождением таможни </div>
-                    <button class="button button_shipping">подробнее</button>
+                    <button data-modal="consultation" class="button button_shipping">подробнее</button>
                 </div>
                 <div class="shipping__item">
                     <div class="shipping__label">Ж/Д доставка</div>
@@ -212,7 +212,7 @@
                         ЖД перевозки грузов из Китая в <br>
                         Россию от 2 недель <br>
                         с прохождением таможни</div>
-                    <button class="button button_shipping">подробнее</button>
+                    <button data-modal="consultation" class="button button_shipping">подробнее</button>
                 </div>
                 <div class="shipping__item">
                     <div class="shipping__label">Автодоставка</div>
@@ -224,7 +224,7 @@
                         Россию от 2 недель <br>
                         с прохождением таможни
                     </div>
-                    <button class="button button_shipping">подробнее</button>
+                    <button data-modal="consultation" class="button button_shipping">подробнее</button>
                 </div>
                 <div class="shipping__item">
                     <div class="shipping__label">Авиа доставка</div>
@@ -236,7 +236,7 @@
                         Россию до 2 недель <br> 
                         с прохождением таможни
                     </div>
-                    <button class="button button_shipping">подробнее</button>
+                    <button data-modal="consultation" class="button button_shipping">подробнее</button>
                 </div>
             </div>
             
@@ -388,7 +388,7 @@
                         <div class="footer__text">Есть вопросы?</div>
                         <a href="tel:+79264230100" class="footer__phone">+7 (926) 423 01 00</a>
                     </div>
-                    <button class="button">перезвоните мне</button>
+                    <button data-modal="consultation" class="button">перезвоните мне</button>
                 </div>
                 
                 
@@ -402,9 +402,30 @@
                     <img src="icons/dev_logo.png" alt="dev">
                 </div>
             </div>
-        </div>
+        </div> 
     </footer>
     
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
+
+                <button class="button button_submit">заказать коснультацию</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку</div>
+            <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>		

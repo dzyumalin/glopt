@@ -377,14 +377,6 @@
 		}
 	}
 
-	.feedback {
-		&__descr {
-			width: 60%;
-			text-align: justify;
-			margin: 0 auto;
-		}
-	}
-
 	.questions {
 		&__wrapper {
 			width: 97%;
@@ -405,6 +397,93 @@
 			.button {
 				display: none;
 			}
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.promo {
+		.header {
+			&__contacts {
+				&_320px {
+					display: none;
+				}
+			}
+			&__logo {
+				margin: 0 auto;
+			}
+		}
+	}
+	
+	.button {
+		&_320px {
+			display: none;
+		}
+	}
+
+	.reason {
+		&__text {
+			width: 100%;
+		}
+	}
+
+	.work {
+		&__items {
+			flex-direction: column;
+		}
+		&__item {
+			width: 100%;
+			margin: 0 auto;
+		}
+	}
+
+	.title {
+		font-size: 16px;
+	}
+	.subtitle {
+		font-size: 12px;
+	}
+
+	.consultation {
+		.feed-form {
+			input {
+				width: 100px;
+				height: 45px;
+				font-size: 8px;
+				padding-left: 5px;
+				margin-right: 0;
+			}
+		}
+	}
+	
+	.questions {
+		.feed-form {
+			input {
+				width: 95%;
+				margin: 5px auto;
+			}
+		}
+	}
+
+	.footer {
+		&__up {
+			flex-direction: column;
+		}
+		&__block {
+			flex-direction: column;
+		}
+		&__contacts {
+			margin: 0;
+		}
+		&__text {
+			text-align: center;
+		}
+		&__wrap {
+			margin: 0 auto;
+		}
+		&__down {
+			flex-direction: column;
+			text-align: center;
 		}
 	}
 }

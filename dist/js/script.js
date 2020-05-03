@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('.feedback__carousel').slick({
         speed: 1200,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../icons/left.svg"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../icons/right.svg"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
         responsive: [
             {
                 breakpoint: 769,
@@ -21,4 +21,14 @@ $(document).ready(function() {
     $('.hamburger__wrapper').click(function(event) {
         $('.hamburger__wrapper,.header__menu').toggleClass('active');
     });
+});
+
+// modal 
+
+$('[data-modal=consultation]').on('click', function() {
+    $('.overlay, #consultation').fadeIn('slow');
+});
+
+$('.modal__close').on('click', function() {
+    $('.overlay, #consulatiton, #thanks').fadeOut('slow');
 });
