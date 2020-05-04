@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                     <a href="#" class="header__logo"><img src="img/logo.png" alt="logo"></a>
@@ -42,7 +42,7 @@
                 <h1 class="promo__header">ДОСТАВКА ГРУЗОВ ИЗ КИТАЯ</h1>
                 <div class="promo__subheader">В РОССИЮ И СНГ ВСЕМИ ВИДАМИ ТРАНСПОРТА</div>
                 <img src="img/line.png" alt="line" class="promo__line">
-                    <div class="promo__icons">
+                    <div class="promo__icons fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="promo__icon">
                             <div class="promo__icon_wrapper">
                                 <img src="icons/cargo.png" alt="cargo">
@@ -192,7 +192,7 @@
         </div>
         <div class="container">
             <div class="shipping__wrapper">
-                <div class="shipping__item">
+                <div class="shipping__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <div class="shipping__label">Доставка морем</div>
                     <img src="icons/shipping/1.png" alt="1">
                     <div class="shipping__descr">Доставка 35-50 дней</div>
@@ -203,7 +203,7 @@
                         с прохождением таможни </div>
                     <button data-modal="consultation" class="button button_shipping">подробнее</button>
                 </div>
-                <div class="shipping__item">
+                <div class="shipping__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1.1s">
                     <div class="shipping__label">Ж/Д доставка</div>
                     <img src="icons/shipping/2.png" alt="2">
                     <div class="shipping__descr">Доставка 15-28 дней</div>
@@ -214,7 +214,7 @@
                         с прохождением таможни</div>
                     <button data-modal="consultation" class="button button_shipping">подробнее</button>
                 </div>
-                <div class="shipping__item">
+                <div class="shipping__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1.2s">
                     <div class="shipping__label">Автодоставка</div>
                     <img src="icons/shipping/3.png" alt="3">
                     <div class="shipping__descr">Доставка 12-20 дня</div>
@@ -226,7 +226,7 @@
                     </div>
                     <button data-modal="consultation" class="button button_shipping">подробнее</button>
                 </div>
-                <div class="shipping__item">
+                <div class="shipping__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1.3s">
                     <div class="shipping__label">Авиа доставка</div>
                     <img src="icons/shipping/4.png" alt="4">
                     <div class="shipping__descr">Доставка 1-12 дней</div>
@@ -248,8 +248,8 @@
                     </div>
                     <form action="#" class="feed-form">
                         <input name="name" required placeholder="Ваше имя..." type="text">
-                        <input name="name" required placeholder="Ваш номер телефона...">
-                        <input name="name" required placeholder="Ваше e-mail..." type="email">
+                        <input name="phone" required placeholder="Ваш номер телефона...">
+                        <input name="email" required placeholder="Ваше e-mail..." type="email">
                     </form>
                     <div class="consultation__wrapper">
                         <button class="button button_consultation">отправить заявку</button>
@@ -426,9 +426,16 @@
         </div>
     </div>
 
+    <a href="#up" class="pageup">
+        <img src="icons/up.svg" alt="up">
+    </a>
+
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/slick.min.js"></script>		
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>		
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
+
 </body>
 </html>

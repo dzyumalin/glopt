@@ -1,6 +1,7 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/fonts';
 @import 'libs/slick';
+@import 'libs/animate';
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -30,4 +31,6 @@
 @import 'blocks/map';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/forms';
+@import 'blocks/pageup';
 @import 'blocks/media'; 

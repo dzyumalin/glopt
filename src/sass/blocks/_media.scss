@@ -486,4 +486,45 @@
 			text-align: center;
 		}
 	}
+	.modal {
+        width: 250px;
+        min-height: 300px;
+        padding: 28px 30px 30px 30px;
+        &__close {
+            right: -30px;
+            font-size: 30px;
+            line-height: 10px;
+        }
+        &__subtitle {
+            font-size: 11px;
+        }
+        &__descr {
+            font-size: 10px;
+        }
+    }
+    .feed-form {
+        width: 100%;
+        input {
+            height: 35px;
+            padding: 0 10px;
+            font-size: 8px;
+        }
+        &_public {
+            width: 300px;
+            input {
+                height: 40px;
+                font-size: 12px;
+                padding: 0 20px;
+            }
+        }
+    }
+    .button {
+        &_submit {
+            height: 40px;
+            font-size: 10px;
+        }
+    }
+    label.error {
+        font-size: 10px;
+    }
 }
